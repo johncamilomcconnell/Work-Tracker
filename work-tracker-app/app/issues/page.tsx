@@ -38,7 +38,11 @@ const IssuesPage = async () => {
         </Table.Body>
     </Table.Root>
     </div>
-  )
-}
+  );
+};
+
+export const dynamic = 'force-dynamic';
+
+// export const revalidate = 0;
 
 export default IssuesPage
